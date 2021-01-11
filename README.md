@@ -11,5 +11,6 @@ python diagnosis/Train.py --data-path [data path] --exp-dir [exp dir] --gpu [gpu
 - Acceleration module
 
 ```bash
-python models/unet/train_unet.py --challenge [multicoil | singlecoil] --data-path [data path] --exp-dir [exp dir] --accelerations [acc. factor] --center-fractions [center fractions] --mask-type [mask type: equispaced] --sumpath [summary path]
+python models/unet/train_unet.py --challenge [multicoil | singlecoil] --data-path [data path] --exp-dir [exp dir] \
+--accelerations [acc. factor] --center-fractions [center fractions] --mask-type [mask type: equispaced] --sumpath [summary path]
 ```
